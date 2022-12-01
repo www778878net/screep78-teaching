@@ -31,7 +31,12 @@
   <ItemGroup>
     <None Include="app.ts" />
     <Content Include=".secret.json" />
+    <Content Include="dist\main.js" />
+    <Content Include="dist\main.js.map" />
     <Content Include="package.json" />
+    <Content Include="pic\code.png" />
+    <Content Include="pic\map.png" />
+    <Content Include="pic\room.png" />
     <Content Include="README.md" />
     <Content Include="src\main.js.map" />
     <Content Include="src\menu\test.js" />
@@ -40,6 +45,8 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="dist\" />
+    <Folder Include="pic\" />
     <Folder Include="src\" />
     <Folder Include="src\menu\" />
     <Folder Include="src\modules\" />
