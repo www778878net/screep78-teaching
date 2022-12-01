@@ -1,0 +1,153 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>NodejsConsoleApp1</Name>
+    <RootNamespace>NodejsConsoleApp1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>85c22fd4-21aa-4b4d-ac92-961866fe9ce2</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.ts</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <EnableTypeScript>true</EnableTypeScript>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app.ts" />
+    <Content Include=".secret.json" />
+    <Content Include="dist\main.js.map" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="rollup.config.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\main.ts" />
+    <Content Include="src\menu\test.js" />
+    <Content Include="src\modules\errorMapper.js" />
+    <Content Include="src\role10\微服务治理该用mem就用.txt">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+    <Folder Include="src\" />
+    <Folder Include="src\menu\" />
+    <Folder Include="src\modules\" />
+    <Folder Include="src\role10\" />
+    <Folder Include="src\old\" />
+    <Folder Include="src\old\role09\" />
+    <Folder Include="src\role09\" />
+    <Folder Include="src\old\role\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\role09\Basic78.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoOce.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoTerminal.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoLab.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoDef.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoMap.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoShip2.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoStore.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoRepair.ts" />
+    <TypeScriptCompile Include="src\role09\croleAtt.ts" />
+    <TypeScriptCompile Include="src\role09\croleClaim.ts" />
+    <TypeScriptCompile Include="src\role09\CAtuoCreate.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoShip.ts" />
+    <TypeScriptCompile Include="src\role09\CroleTran2.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoPick.ts" />
+    <TypeScriptCompile Include="src\role09\croleUp.ts" />
+    <TypeScriptCompile Include="src\role09\croleCollect.ts" />
+    <TypeScriptCompile Include="src\role09\CroleStore.ts" />
+    <TypeScriptCompile Include="src\role09\CroleRepair.ts" />
+    <TypeScriptCompile Include="src\role09\RAtt.ts" />
+    <TypeScriptCompile Include="src\role09\BaseRoom.ts" />
+    <TypeScriptCompile Include="src\role09\CroleTran.ts" />
+    <TypeScriptCompile Include="src\role09\CAutoBasic.ts" />
+    <TypeScriptCompile Include="src\role09\RoleBasic9.ts" />
+    <TypeScriptCompile Include="src\role09\Rtest3.ts" />
+    <TypeScriptCompile Include="src\role09\Rtest.ts" />
+    <TypeScriptCompile Include="src\role09\RClaim.ts" />
+    <TypeScriptCompile Include="src\role09\Rbuild.ts" />
+    <TypeScriptCompile Include="src\role09\Rsupport8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleBasic8.ts" />
+    <TypeScriptCompile Include="src\role09\Rcollect8.ts" />
+    <TypeScriptCompile Include="src\role09\RolePick8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleCenter08.ts" />
+    <TypeScriptCompile Include="src\role09\RoleBuild8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleCollect8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleRepair8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleMove8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleStore8.ts" />
+    <TypeScriptCompile Include="src\role09\RoleTranReq.ts" />
+    <TypeScriptCompile Include="src\old\role09\RoleTranAuto.ts" />
+    <TypeScriptCompile Include="src\role09\Room9.ts" />
+    <TypeScriptCompile Include="src\old\role\RoleBase.ts" />
+    <TypeScriptCompile Include="src\old\role\RoleHarvest.ts" />
+    <TypeScriptCompile Include="src\old\role\RoleCenter.ts" />
+    <TypeScriptCompile Include="src\role10\Basic78.ts" />
+    <TypeScriptCompile Include="src\role10\Test.ts" />
+    <TypeScriptCompile Include="src\role10\Move3.js" />
+    <TypeScriptCompile Include="src\role10\RoleCenter.ts" />
+    <TypeScriptCompile Include="src\role10\Lab78.ts" />
+    <TypeScriptCompile Include="src\role10\Terminal78.ts" />
+    <TypeScriptCompile Include="src\role10\RoomData.ts" />
+    <TypeScriptCompile Include="src\role10\RoomData78.ts" />
+    <TypeScriptCompile Include="src\role10\Move78.ts" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
