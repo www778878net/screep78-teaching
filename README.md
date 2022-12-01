@@ -22,7 +22,7 @@
 ## 截图
 
 >![大地图](https://github.com/www778878net/screep78-teaching/blob/master/pic/map.png)
->![房间](https://github.com/www778878net/screep78-teaching/blob/master/pic/map.png)
+>![房间](https://github.com/www778878net/screep78-teaching/blob/master/pic/room.png)
 >![代码示例](https://github.com/www778878net/screep78-teaching/blob/master/pic/code.png)
 
 
